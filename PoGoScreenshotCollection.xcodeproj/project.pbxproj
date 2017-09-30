@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		891E0F1E1F7B8C0F003C603A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891E0F1D1F7B8C0F003C603A /* AppDelegate.swift */; };
-		891E0F201F7B8C0F003C603A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891E0F1F1F7B8C0F003C603A /* FirstViewController.swift */; };
-		891E0F221F7B8C0F003C603A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891E0F211F7B8C0F003C603A /* SecondViewController.swift */; };
 		891E0F251F7B8C0F003C603A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891E0F231F7B8C0F003C603A /* Main.storyboard */; };
 		891E0F271F7B8C10003C603A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 891E0F261F7B8C10003C603A /* Assets.xcassets */; };
 		891E0F2A1F7B8C10003C603A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891E0F281F7B8C10003C603A /* LaunchScreen.storyboard */; };
+		891E0F321F7B8CB8003C603A /* ErrorScreenshotsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891E0F311F7B8CB8003C603A /* ErrorScreenshotsViewController.swift */; };
+		891E0F341F7B8CC2003C603A /* FunnyScreenshotsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891E0F331F7B8CC2003C603A /* FunnyScreenshotsViewController.swift */; };
+		891E0F361F7B8D32003C603A /* PoGoErrorScreenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891E0F351F7B8D32003C603A /* PoGoErrorScreenshot.swift */; };
+		891E0F381F7B9207003C603A /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891E0F371F7B9207003C603A /* GridLayout.swift */; };
+		891E0F3A1F7B9516003C603A /* ErrorScreenshotCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891E0F391F7B9516003C603A /* ErrorScreenshotCollectionViewCell.swift */; };
+		89AAAC571F7BFB640044ED94 /* PoGoFunnyScreenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AAAC561F7BFB640044ED94 /* PoGoFunnyScreenshot.swift */; };
+		89AAAC5B1F7C00360044ED94 /* FunnyScreenshotCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AAAC5A1F7C00360044ED94 /* FunnyScreenshotCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		891E0F1A1F7B8C0F003C603A /* PoGoScreenshotCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoGoScreenshotCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		891E0F1D1F7B8C0F003C603A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		891E0F1F1F7B8C0F003C603A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		891E0F211F7B8C0F003C603A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		891E0F241F7B8C0F003C603A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		891E0F261F7B8C10003C603A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		891E0F291F7B8C10003C603A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		891E0F2B1F7B8C10003C603A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		891E0F311F7B8CB8003C603A /* ErrorScreenshotsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorScreenshotsViewController.swift; sourceTree = "<group>"; };
+		891E0F331F7B8CC2003C603A /* FunnyScreenshotsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyScreenshotsViewController.swift; sourceTree = "<group>"; };
+		891E0F351F7B8D32003C603A /* PoGoErrorScreenshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoGoErrorScreenshot.swift; sourceTree = "<group>"; };
+		891E0F371F7B9207003C603A /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		891E0F391F7B9516003C603A /* ErrorScreenshotCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorScreenshotCollectionViewCell.swift; sourceTree = "<group>"; };
+		89AAAC561F7BFB640044ED94 /* PoGoFunnyScreenshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoGoFunnyScreenshot.swift; sourceTree = "<group>"; };
+		89AAAC5A1F7C00360044ED94 /* FunnyScreenshotCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyScreenshotCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,14 @@
 			isa = PBXGroup;
 			children = (
 				891E0F1D1F7B8C0F003C603A /* AppDelegate.swift */,
-				891E0F1F1F7B8C0F003C603A /* FirstViewController.swift */,
-				891E0F211F7B8C0F003C603A /* SecondViewController.swift */,
+				891E0F371F7B9207003C603A /* GridLayout.swift */,
+				891E0F311F7B8CB8003C603A /* ErrorScreenshotsViewController.swift */,
+				891E0F331F7B8CC2003C603A /* FunnyScreenshotsViewController.swift */,
 				891E0F231F7B8C0F003C603A /* Main.storyboard */,
+				891E0F391F7B9516003C603A /* ErrorScreenshotCollectionViewCell.swift */,
+				89AAAC5A1F7C00360044ED94 /* FunnyScreenshotCollectionViewCell.swift */,
+				891E0F351F7B8D32003C603A /* PoGoErrorScreenshot.swift */,
+				89AAAC561F7BFB640044ED94 /* PoGoFunnyScreenshot.swift */,
 				891E0F261F7B8C10003C603A /* Assets.xcassets */,
 				891E0F281F7B8C10003C603A /* LaunchScreen.storyboard */,
 				891E0F2B1F7B8C10003C603A /* Info.plist */,
@@ -139,9 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				891E0F221F7B8C0F003C603A /* SecondViewController.swift in Sources */,
+				891E0F321F7B8CB8003C603A /* ErrorScreenshotsViewController.swift in Sources */,
+				89AAAC571F7BFB640044ED94 /* PoGoFunnyScreenshot.swift in Sources */,
+				891E0F361F7B8D32003C603A /* PoGoErrorScreenshot.swift in Sources */,
+				891E0F381F7B9207003C603A /* GridLayout.swift in Sources */,
 				891E0F1E1F7B8C0F003C603A /* AppDelegate.swift in Sources */,
-				891E0F201F7B8C0F003C603A /* FirstViewController.swift in Sources */,
+				891E0F341F7B8CC2003C603A /* FunnyScreenshotsViewController.swift in Sources */,
+				891E0F3A1F7B9516003C603A /* ErrorScreenshotCollectionViewCell.swift in Sources */,
+				89AAAC5B1F7C00360044ED94 /* FunnyScreenshotCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
