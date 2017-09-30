@@ -22,6 +22,7 @@ class FunnyScreenshotsViewController: UIViewController, UICollectionViewDelegate
         collectionView.collectionViewLayout = gridLayout
         collectionView.reloadData()
         collectionView.reloadData()
+        print("viewDidLoad()")
     }
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
